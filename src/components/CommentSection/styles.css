@@ -1,0 +1,19 @@
+.comment-section {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: auto;
+  background-color: #dddddd;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.title {
+  margin-bottom: 1rem;
+}
+
+.comments {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

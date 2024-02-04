@@ -1,0 +1,39 @@
+.input-group {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+  margin-bottom: 1rem;
+}
+
+.input-group > input {
+  border: 1px solid #a0a0a0;
+}
+
+#email {
+  height: 2rem;
+}
+
+#comment {
+  height: 6rem;
+}
+
+button {
+  width: 100%;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid #a0a0a0;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #a0a0a0;
+  color: white;
+  cursor: pointer;
+}
+
+hr {
+  border: 2px solid #a0a0a0;
+  margin-bottom: 1rem;
+}
